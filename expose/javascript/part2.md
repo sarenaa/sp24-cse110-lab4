@@ -34,3 +34,10 @@ f. true. Boolean(anything that isn't 0,null, undefined, Nan, "") = true. So true
 
 15. == performs type coercion. 2 variables can be equal even if their type is different.  '2' == 2 returns true.
 === does not perform type coercion, 2 things must have the same value and be the same type to be equal.'2' === 2 returns false.
+
+17. [2,4,6]. modifyArray takes in an array and a callback function. It iterates over each element in the array and applies the callback function on each element. The result [2,4,6] is stored in a new array.
+
+18. see js file
+
+19. The function prints 1, 3, 4, 2. Console.log(1) prints 1st. Console.log(2) is delayed by 1000 milliseconds so console.log(3 and 4) are printed before.
+
