@@ -11,8 +11,26 @@
 9. Line 11 prints an error. i is type let and only visible in the for loop.
 10. Line 12 prints prices.length. const length is in the block scope of the print statement.
 11. This function returns the empty discounted array. const discounted's value cannot be changed since it was 1st declared empty.
-12. 
-a. student.name
-b.  student.Grad year ????
-c. student.greeting() ???
-d. 
+
+## Given the above Object, write the notation for:  (These should be in your part2.md).
+
+12. see .js file
+
+13a. 32. js concatenates resulting in 32.
+b. 1. js converts the string '3' to a number then subtracts.
+c. 3. Adding a number to null results in the number.
+d. 3. Concatenating a string to null results in the string.
+e. 4. True is equal to 1 in js.
+f. 0. False is equal to 0 in js.
+g. 3undefined. Concatenating means undefined is converted to a string'undefined'.
+h. NaN. Subtracting means 'undefined' is converted to not a number.
+
+14a. true. js converts the string '2' to a number.
+b. true. the 1st character of the left string '2' is alphabetically less than the 1st character of the right string '1'.
+c. true. == performs type conversion. '2' is converted to 2, now both sides have the same value.
+d. false. === does not convert types. Both sides have different types.
+e. false. true = 1 in js. So 1 == 2 will be false.
+f. true. Boolean(anything that isn't 0,null, undefined, Nan, "") = true. So true == true.
+
+15. == performs type coercion. 2 variables can be equal even if their type is different.  '2' == 2 returns true.
+=== does not perform type coercion, 2 things must have the same value and be the same type to be equal.'2' === 2 returns false.
